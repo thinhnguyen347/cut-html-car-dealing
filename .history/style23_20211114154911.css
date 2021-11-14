@@ -56,8 +56,14 @@ a {
 }
 
 .menu> ul{
-  list-style: none;
-  display: flex;
+  list
+}
+
+.menu> ul > .item.active::after {
+  content:"";
+  width: 100%;
+  height: 2px;
+  background-color:#342c2c;
 }
 
 .nav-bar > .menu > .sign-up {

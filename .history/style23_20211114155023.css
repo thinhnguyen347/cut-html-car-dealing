@@ -60,6 +60,14 @@ a {
   display: flex;
 }
 
+.menu> ul > li.item.active::after {
+  content:"";
+  width: 100%;
+  height: 2px;
+  background-color:#342c2c;
+  position:
+}
+
 .nav-bar > .menu > .sign-up {
   background-color: #deff06;
   border: none;

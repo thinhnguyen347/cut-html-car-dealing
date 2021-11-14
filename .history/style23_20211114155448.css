@@ -223,7 +223,7 @@ button.search {
   border: none;
 }
 
-.top-buying {
+#top-buying {
   margin: 50px 90px;
   display: flex;
   justify-content: space-around;
@@ -438,7 +438,7 @@ button.search {
     height: 18rem;
   }
 
-  .top-buying {
+  #top-buying {
     margin: 50px auto;
     display: flex;
     flex-wrap: wrap;
@@ -503,7 +503,7 @@ button.search {
     padding: 0 15px 15px 15px;
   }
 
-  .top-buying {
+  #top-buying {
     margin: 0;
   }
 }

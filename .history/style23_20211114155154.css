@@ -60,6 +60,25 @@ a {
   display: flex;
 }
 
+.menu> ul > li{
+  position: relative;
+}
+
+.menu> ul > li.item.active::after {
+  content:"";
+  width: calc(100% - 15px);
+  transform: translateX();
+  height: 2px;
+  background-color:#342c2c;
+  position:absolute;
+  top: 20px;
+  left:0;
+  -webkit-transform: translateX();
+  -moz-transform: translateX();
+  -ms-transform: translateX();
+  -o-transform: translateX();
+}
+
 .nav-bar > .menu > .sign-up {
   background-color: #deff06;
   border: none;

@@ -223,7 +223,7 @@ button.search {
   border: none;
 }
 
-.top-buying {
+#top-buying {
   margin: 50px 90px;
   display: flex;
   justify-content: space-around;
