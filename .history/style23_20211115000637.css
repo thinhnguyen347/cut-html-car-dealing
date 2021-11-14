@@ -440,12 +440,6 @@ button.search {
 
 .pop-up > p {
   padding: 10px;
-  color: white;
-  cursor: pointer;
-}
-
-.pop-up > p:hover {
-  color:#f5a623;
 }
 
 .show{

@@ -16,7 +16,7 @@ mobileItem.last().click(() => {
 });
 
 $('.pop-up > p').click(() => {
-    $(".pop-up").removeClass("show");
+    $(".pop-up").toggleClass("show");
   });
 
 
