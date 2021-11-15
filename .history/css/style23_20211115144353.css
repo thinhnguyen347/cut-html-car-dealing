@@ -343,7 +343,7 @@ button.search {
 }
 
 .menu-mobile > a, .menu-mobile > div {
-  flex-grow: 1;
+  flex: 0 ;
 }
 
 .menu-mobile > a > div {
@@ -604,17 +604,10 @@ button.search {
     margin: 30px auto;
   }
 
-  .email{
-    width: 100%;
-  }
-
   .menu-mobile > a > div {
-    margin: 8px auto;
+    margin: 10px auto;
   }
 
-  .menu-mobile > a > div > i {
-    font-size: 1.2rem;
-  }
   .pop-up {
     position: absolute;
     right: 5px;

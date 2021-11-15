@@ -604,17 +604,23 @@ button.search {
     margin: 30px auto;
   }
 
-  .email{
-    width: 100%;
-  }
-
   .menu-mobile > a > div {
-    margin: 8px auto;
+    margin: 10px auto;
   }
 
   .menu-mobile > a > div > i {
-    font-size: 1.2rem;
-  }
+    transform: translateY(50%);
+    -webkit-transform: translateY(50%);
+    -moz-transform: translateY(50%);
+    -ms-transform: translateY(50%);
+    -o-transform: translateY(50%);
+    transition: transform 0.3s ease-in-out;
+    -webkit-transition: transform 0.3s ease-in-out;
+    -moz-transition: transform 0.3s ease-in-out;
+    -ms-transition: transform 0.3s ease-in-out;
+    -o-transition: transform 0.3s ease-in-out;
+    font-size: 1.5rem;
+
   .pop-up {
     position: absolute;
     right: 5px;

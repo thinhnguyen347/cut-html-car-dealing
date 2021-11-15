@@ -231,7 +231,7 @@ button.search {
   color: white;
   font-size: 24px;
   flex-wrap: wrap;
-  gap: 20px;
+  gap:20px;
 }
 
 .img-container {
@@ -338,12 +338,8 @@ button.search {
   z-index: 99;
 }
 
-.menu-mobile > a {
-  display: block;
-}
-
-.menu-mobile > a, .menu-mobile > div {
-  flex-grow: 1;
+.menu-mobile > a{
+  display:block
 }
 
 .menu-mobile > a > div {
@@ -454,10 +450,10 @@ button.search {
 }
 
 .pop-up > p:hover {
-  color: #f5a623;
+  color:#f5a623;
 }
 
-.show {
+.show{
   transform: scale(1);
   -webkit-transform: scale(1);
   -moz-transform: scale(1);
@@ -581,11 +577,11 @@ button.search {
     padding-top: 0;
   }
 
-  #finance {
+  #finance{
     margin-top: 84px;
   }
 
-  .list {
+  .list{
     margin-top: 0px;
   }
 
@@ -604,17 +600,10 @@ button.search {
     margin: 30px auto;
   }
 
-  .email{
-    width: 100%;
-  }
-
   .menu-mobile > a > div {
-    margin: 8px auto;
+    margin: 10px auto;
   }
 
-  .menu-mobile > a > div > i {
-    font-size: 1.2rem;
-  }
   .pop-up {
     position: absolute;
     right: 5px;
