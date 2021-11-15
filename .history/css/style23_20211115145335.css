@@ -263,16 +263,15 @@ button.search {
   padding-top: 20px;
   padding-bottom: 20px;
   position: absolute;
-  bottom: 7px;
+  bottom: 5px;
   left: 0;
   text-align: center;
   width: 100%;
-  transition: all 0.3s ease-in-out;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -ms-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  background: none;
+  transition: 0.3s ease-in-out;
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  -ms-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
 }
 
 .img-container:hover > div {

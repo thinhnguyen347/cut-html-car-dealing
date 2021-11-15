@@ -267,12 +267,11 @@ button.search {
   left: 0;
   text-align: center;
   width: 100%;
-  transition: all 0.3s ease-in-out;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -ms-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  background: none;
+  transition: b 0.5s ease-in-out;
+  -webkit-transition: b 0.5s ease-in-out;
+  -moz-transition: b 0.5s ease-in-out;
+  -ms-transition: b 0.5s ease-in-out;
+  -o-transition: b 0.5s ease-in-out;
 }
 
 .img-container:hover > div {

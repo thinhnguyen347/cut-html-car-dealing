@@ -267,15 +267,9 @@ button.search {
   left: 0;
   text-align: center;
   width: 100%;
-  transition: all 0.3s ease-in-out;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -ms-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  background: none;
 }
 
-.img-container:hover > div {
+.img-container:hover div {
   background: linear-gradient(to top, black 10%, transparent 100%);
 }
 
