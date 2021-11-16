@@ -343,8 +343,7 @@ button.search {
   display: block;
 }
 
-.menu-mobile > a,
-.menu-mobile > div {
+.menu-mobile > a, .menu-mobile > div {
   flex-grow: 1;
 }
 
@@ -353,8 +352,8 @@ button.search {
   color: #fff;
 }
 
-.menu-mobile-item {
-  position: relative;
+.menu-mobile-item{
+  position:relative
 }
 
 .menu-mobile > a > div > .item-m,
@@ -362,14 +361,14 @@ button.search {
   font-size: 0.8rem;
   visibility: hidden;
   position: absolute;
-  top: 55%;
+  top: 50%;
   left: 0;
   width: 100%;
-  transition: 0.3s cubic-bezier(.12,.95,.97,.09);
-  -webkit-transition: 0.3s cubic-bezier(.12,.95,.97,.09);
-  -moz-transition: 0.3s cubic-bezier(.12,.95,.97,.09);
-  -ms-transition: 0.3s cubic-bezier(.12,.95,.97,.09);
-  -o-transition: 0.3s cubic-bezier(.12,.95,.97,.09);
+  transition: .3s;
+  -webkit-transition: .3s;
+  -moz-transition: .3s;
+  -ms-transition: .3s;
+  -o-transition: .3s;
 }
 
 .menu-mobile > a > div:hover .item-m,
@@ -623,7 +622,7 @@ button.search {
     margin: 30px auto;
   }
 
-  .email {
+  .email{
     width: 100%;
   }
 

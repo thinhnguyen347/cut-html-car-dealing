@@ -343,46 +343,32 @@ button.search {
   display: block;
 }
 
-.menu-mobile > a,
-.menu-mobile > div {
+.menu-mobile > a, .menu-mobile > div {
   flex-grow: 1;
 }
 
 .menu-mobile > a > div {
-  margin: 20px auto;
+  margin: 15px auto;
   color: #fff;
 }
 
-.menu-mobile-item {
-  position: relative;
+.menu-mobile-item{
+  
 }
 
 .menu-mobile > a > div > .item-m,
 .menu-mobile > a > div > .item-m {
   font-size: 0.8rem;
   visibility: hidden;
-  position: absolute;
-  top: 55%;
-  left: 0;
   width: 100%;
-  transition: 0.3s cubic-bezier(.12,.95,.97,.09);
-  -webkit-transition: 0.3s cubic-bezier(.12,.95,.97,.09);
-  -moz-transition: 0.3s cubic-bezier(.12,.95,.97,.09);
-  -ms-transition: 0.3s cubic-bezier(.12,.95,.97,.09);
-  -o-transition: 0.3s cubic-bezier(.12,.95,.97,.09);
-}
-
-.menu-mobile > a > div:hover .item-m,
-.menu-mobile > a > div.active .item-m {
-  visibility: visible;
 }
 
 .menu-mobile > a > div > i {
-  transform: translateY(0%);
-  -webkit-transform: translateY(0%);
-  -moz-transform: translateY(0%);
-  -ms-transform: translateY(0%);
-  -o-transform: translateY(0%);
+  transform: translateY(50%);
+  -webkit-transform: translateY(50%);
+  -moz-transform: translateY(50%);
+  -ms-transform: translateY(50%);
+  -o-transform: translateY(50%);
   transition: transform 0.3s ease-in-out;
   -webkit-transition: transform 0.3s ease-in-out;
   -moz-transition: transform 0.3s ease-in-out;
@@ -398,13 +384,18 @@ button.search {
   color: #f5a623;
 }
 
+.menu-mobile > a > div:hover .item-m,
+.menu-mobile > a > div.active .item-m {
+  visibility: visible;
+}
+
 .menu-mobile > a > div:hover i,
 .menu-mobile > a > div.active i {
-  transform: translateY(-10px);
-  -webkit-transform: translateY(-10px);
-  -moz-transform: translateY(-10px);
-  -ms-transform: translateY(-10px);
-  -o-transform: translateY(-10px);
+  transform: translateY(0%);
+  -webkit-transform: translateY(0%);
+  -moz-transform: translateY(0%);
+  -ms-transform: translateY(0%);
+  -o-transform: translateY(0%);
 }
 
 .register-form {
@@ -604,10 +595,6 @@ button.search {
     margin-top: 0px;
   }
 
-  .menu-mobile > a > div {
-    margin: 15px auto;
-  }
-
   .register-form {
     display: flex;
     flex-direction: column;
@@ -623,8 +610,12 @@ button.search {
     margin: 30px auto;
   }
 
-  .email {
+  .email{
     width: 100%;
+  }
+
+  .menu-mobile > a > div {
+    margin: 8px auto;
   }
 
   .menu-mobile > a > div > i {

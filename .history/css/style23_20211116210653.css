@@ -365,11 +365,11 @@ button.search {
   top: 55%;
   left: 0;
   width: 100%;
-  transition: 0.3s cubic-bezier(.12,.95,.97,.09);
-  -webkit-transition: 0.3s cubic-bezier(.12,.95,.97,.09);
-  -moz-transition: 0.3s cubic-bezier(.12,.95,.97,.09);
-  -ms-transition: 0.3s cubic-bezier(.12,.95,.97,.09);
-  -o-transition: 0.3s cubic-bezier(.12,.95,.97,.09);
+  transition: 0.3s ease-in;
+  -webkit-transition: 0.3s ease-in;
+  -moz-transition: 0.3s ease-in;
+  -ms-transition: 0.3s ease-in;
+  -o-transition: 0.3s ease-in;
 }
 
 .menu-mobile > a > div:hover .item-m,
@@ -606,6 +606,11 @@ button.search {
 
   .menu-mobile > a > div {
     margin: 15px auto;
+  }
+
+  .menu-mobile > a > div > .item-m,
+  .menu-mobile > a > div > .item-m {
+    top: 55%;
   }
 
   .register-form {
