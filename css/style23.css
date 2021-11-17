@@ -345,7 +345,7 @@ button.search {
 
 .menu-mobile > a,
 .menu-mobile > div {
-  flex-grow: 1;
+  flex: 1 1 0;
 }
 
 .menu-mobile > a > div {
